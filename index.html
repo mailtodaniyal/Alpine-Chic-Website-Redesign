@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalet Alpine Trails - Luxury Alpine Retreat</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <img style="height: 60px;" src="/new logo.png" alt="">
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="https://www.alpinechalet-trails.ch/booking/" target="_blank">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu-btn" id="closeMenuBtn">×</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="https://www.alpinechalet-trails.ch/booking/" target="_blank">Book Now</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section style="background-image: url(/hero.jpg); background-repeat: no-repeat; background-size: cover;" class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Luxury Alpine Retreat</h1>
+            <p>Experience the perfect blend of traditional Swiss charm and modern comfort in the heart of the Alps</p>
+            <div>
+                <a href="https://www.alpinechalet-trails.ch/booking/" class="btn" target="_blank">Book Your Stay</a>
+                <a href="#rooms" class="btn btn-outline">Explore Rooms</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Story</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate">
+                    <h3>A Traditional Chalet With Modern Comfort</h3>
+                    <p>Nestled in the breathtaking Swiss Alps, Chalet Alpine Trails offers a unique combination of traditional alpine architecture and contemporary luxury. Our chalet has been carefully restored to preserve its authentic character while providing all the modern amenities you need for a comfortable stay.</p>
+                    <p>With stunning mountain views from every window, our chalet is the perfect base for both summer hiking adventures and winter ski holidays. Whether you're looking for an active getaway or a peaceful retreat, we promise an unforgettable experience.</p>
+                    <a href="#gallery" class="btn" style="background-color: var(--primary);">View Gallery</a>
+                </div>
+                <div class="about-image animate">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Chalet Alpine Trails">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Discover Our World</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item animate">
+                    <img src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Chalet Exterior">
+                    <div class="gallery-caption">
+                        <h3>Mountain View</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Living Room">
+                    <div class="gallery-caption">
+                        <h3>Cozy Living Area</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="/bedroom.jpg" alt="Bedroom">
+                    <div class="gallery-caption">
+                        <h3>Luxury Bedroom</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Dining Area">
+                    <div class="gallery-caption">
+                        <h3>Rustic Dining</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="https://images.unsplash.com/photo-1517825738774-7de9363ef735?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Mountain Landscape">
+                    <div class="gallery-caption">
+                        <h3>Alpine Trails</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Skiing">
+                    <div class="gallery-caption">
+                        <h3>Winter Sports</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="section" id="rooms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Accommodations</h2>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card animate">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1566669437687-7040a6926753?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Deluxe Room">
+                    </div>
+                    <div class="room-details">
+                        <h3>Deluxe Alpine Room</h3>
+                        <p>Spacious room with panoramic mountain views, featuring a king-size bed and private balcony.</p>
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i>👥</i> 2 Guests
+                            </div>
+                            <div class="room-feature">
+                                <i>🛏️</i> King Bed
+                            </div>
+                            <div class="room-feature">
+                                <i>🔑</i> 35m²
+                            </div>
+                        </div>
+                        <div class="room-price">
+                            <span>From</span>
+                            <span class="price">CHF 280/night</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card animate">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Family Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Family Suite</h3>
+                        <p>Perfect for families, with separate bedroom for parents and bunk beds for children.</p>
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i>👥</i> 4 Guests
+                            </div>
+                            <div class="room-feature">
+                                <i>🛏️</i> 1 King + 2 Singles
+                            </div>
+                            <div class="room-feature">
+                                <i>🔑</i> 45m²
+                            </div>
+                        </div>
+                        <div class="room-price">
+                            <span>From</span>
+                            <span class="price">CHF 380/night</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card animate">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Mountain View Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Mountain View Suite</h3>
+                        <p>Our premium suite with breathtaking views, fireplace, and luxurious bathroom with sauna.</p>
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i>👥</i> 2 Guests
+                            </div>
+                            <div class="room-feature">
+                                <i>🛏️</i> King Bed
+                            </div>
+                            <div class="room-feature">
+                                <i>🔑</i> 55m²
+                            </div>
+                        </div>
+                        <div class="room-price">
+                            <span>From</span>
+                            <span class="price">CHF 450/night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="section activities" id="activities">
+        <div class="container">
+            <div class="section-title">
+                <h2>Alpine Activities</h2>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card animate">
+                    <div class="activity-icon">
+                        ⛷️
+                    </div>
+                    <h3>Skiing & Snowboarding</h3>
+                    <p>Access to world-class slopes just minutes from the chalet. Equipment rental available.</p>
+                </div>
+                <div class="activity-card animate">
+                    <div class="activity-icon">
+                        🚠
+                    </div>
+                    <h3>Mountain Hiking</h3>
+                    <p>Guided tours through breathtaking alpine trails suitable for all skill levels.</p>
+                </div>
+                <div class="activity-card animate">
+                    <div class="activity-icon">
+                        🚵
+                    </div>
+                    <h3>Mountain Biking</h3>
+                    <p>Explore the mountains on two wheels with our premium bike rentals.</p>
+                </div>
+                <div class="activity-card animate">
+                    <div class="activity-icon">
+                        🧖
+                    </div>
+                    <h3>Wellness & Spa</h3>
+                    <p>Relax in our sauna and spa area after an active day in the mountains.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready for Your Alpine Adventure?</h2>
+            <p>Book your stay at Chalet Alpine Trails today and experience the magic of the Swiss mountains in unparalleled comfort and style.</p>
+            <a href="https://www.alpinechalet-trails.ch/booking/" class="btn" target="_blank">Check Availability</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img style="height: 90px;" src="/new logo footer.png" alt="">
+                    <p>Your luxury alpine retreat in the heart of Switzerland. Experience traditional charm with modern comfort.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📱</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Alpinechalet Trails</p>
+                    <p>Dorfstrasse 123</p>
+                    <p>7270 Davos Platz</p>
+                    <p>Switzerland</p>
+                    <p>+41 81 123 45 67</p>
+                    <p>info@alpinechalet-trails.ch</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chalet Alpine Trails. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
